@@ -16,6 +16,12 @@ jacoco {
     toolVersion = "0.8.7"
 }
 
+signing {
+    setRequired {
+        false
+    }
+}
+
 android {
     compileSdkVersion 31
 

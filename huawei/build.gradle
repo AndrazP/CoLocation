@@ -5,6 +5,12 @@ plugins {
 
 apply plugin: "com.vanniktech.maven.publish"
 
+signing {
+    setRequired {
+        false
+    }
+}
+
 android {
     compileSdkVersion 31
 
